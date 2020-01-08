@@ -16,8 +16,8 @@ Message: ".$message."
 //mail($replyemail,"","","FROM: ".$nameContacto." <".$emailContacto.">\n");
 
 
-mail ("abeponce@gmail.com" , ".$subject.", ".$message.", "FROM: ".$name." <".$email.">\n");
-header("location: ../mail-success.html ");
+mail ("luisbmartinez78@gmail.com" , ".$subject.", ".$message.", "FROM: ".$name." <".$email.">\n");
+header("location: mail-success.html ");
 ?>
 
 
